@@ -123,26 +123,3 @@ Information about the payment itself, i.e., PaymentInfo.
 👉 When there is no more space for storage, remove the oldest transaction.
 
 👉 For working with date and time, you can use the java.time API, paying special attention to the LocalDateTime class and its methods.
-
-Packages
-
-Follow the package names for all the classes described above. Otherwise, your solution will not be testable by the grader.
-
-
-src
-╷
-└─ bg/sofia/uni/fmi/mjt/virtualwallet/core
-   └─ VirtualWalletAPI.java
-   ├─ VirtualWallet.java
-   └─ (...)
-   └─ card/
-      └─ Card.java
-      └─ StandardCard.java
-      └─ GoldenCard.java
-      └─ (...)
-   └─ payment/
-      └─ PaymentInfo.java
-      └─ (...)
-Notes
-
-To test your solution on grader.sapera.org, compress the entire src folder of the project into a zip file.
