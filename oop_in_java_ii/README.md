@@ -100,29 +100,3 @@ We consider two components equal if they have the same names (name) and abbrevia
 Notes:
 
 In this task, the use of arrays only is allowed since we have not yet become familiar with collections.
-Your project must have the following structure:
-
-src
-  ╷
-  └─ bg/sofia/uni/fmi/mjt/jira/
-    ├─ Jira.java
-    ├─ issues/
-    |   ├─ Issue.java
-    |   ├─ Task.java
-    |   ├─ Feature.java
-    |   ├─ Bug.java
-    |   ├─ Component.java
-    |   └─(...)
-    |
-    ├─ interfaces/
-    | ├─ Filter.java
-    | ├─ Repository.java
-    | └─ (...)
-    |
-    └─ enums/
-      ├─ IssuePriority.java
-      ├─ IssueResolution.java
-      ├─ IssueStatus.java
-      ├─ WorkAction.java
-      └─ (...)
-When you are ready, upload a zip archive of the src directory of your project to sapera.org.
