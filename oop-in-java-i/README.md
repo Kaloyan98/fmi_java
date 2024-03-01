@@ -143,7 +143,6 @@ src
    └─ payment/
       └─ PaymentInfo.java
       └─ (...)
-
 Notes
 
 To test your solution on grader.sapera.org, compress the entire src folder of the project into a zip file.
